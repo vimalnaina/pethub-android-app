@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pethub_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".adopt.DetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".adopt.TurtleActivity"
+            android:label="Turtles"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adopt.RabbitActivity"
+            android:label="Rabbits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adopt.BirdActivity"
+            android:label="Birds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adopt.CatActivity"
+            android:label="Cats"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adopt.DogActivity"
+            android:label="Dogs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Donate2Activity"
+            android:label="Donate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DonateActivity"
+            android:label="Donate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdoptActivity"
+            android:label="Adopt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".usermgmt.RegisterActivity"
+            android:label="Sign Up"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".usermgmt.UserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".usermgmt.LoginActivity"
+            android:label="Sign In"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

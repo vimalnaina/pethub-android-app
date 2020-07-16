@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    tools:context=".Donate2Activity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="115dp"
+                        android:text="Pet Breed:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/dntbreed"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="120dp"
+                        android:text="Pet Type:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <Spinner
+                        android:id="@+id/dnttype"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="115dp"
+                        android:text="Pet Image:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnBrowse"
+                        android:layout_width="130dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="81dp"
+                        android:background="#B3B3B3"
+                        android:text="Browse" />
+
+                    <ImageView
+                        android:id="@+id/dntimg"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/ic_image"
+                        android:tooltipText="preview" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="115sp"
+                        android:text="Pet Height: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/dntmaleheight"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Male Height"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <EditText
+                        android:id="@+id/dntfemaleheight"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Female Height"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="115sp"
+                        android:text="Pet Weight: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/dntmaleweight"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Male Weight"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <EditText
+                        android:id="@+id/dntfemaleweight"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Female Weight"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="110dp"
+                        android:text="Pet Lifespan: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/dntlifespan"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="In Year"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="90dp"
+                        android:text="Pet Temperament: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/dnttemperament"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="120dp"
+                        android:text="Petgroup: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/dntpetgroup"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="121dp"
+                        android:text="Pet Price: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/dntprice"
+                        android:layout_width="300dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/colorBlack"
+                        android:background="#ffff" />
+
+                    <Button
+                        android:id="@+id/btnupload"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorAccent"
+                        android:text="Upload"
+                        android:layout_marginBottom="30dp"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

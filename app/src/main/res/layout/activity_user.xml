@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".usermgmt.UserActivity"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo"/>
+
+    <Button
+        android:id="@+id/button_login_page"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Already User? Sign In"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/button_register_page"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Not User? Create Account"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/button_skip_page"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Skip Sign In"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

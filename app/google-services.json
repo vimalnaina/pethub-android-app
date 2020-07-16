@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491467010895",
+    "firebase_url": "https://pethubapptest.firebaseio.com",
+    "project_id": "pethubapptest",
+    "storage_bucket": "pethubapptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491467010895:android:0e934d70973db2ca190b3a",
+        "android_client_info": {
+          "package_name": "com.example.pethub_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491467010895-icjeo1g198cf933b8bmobuf08l42psf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jZeJYPznPkQxRCC-p3ylzV6bQPPa5rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491467010895-icjeo1g198cf933b8bmobuf08l42psf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
